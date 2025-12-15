@@ -1,3 +1,4 @@
+import Home from './Home';
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -21,7 +22,7 @@ export default function App() {
       <Navbar />
 
       <main style={{ flex: 1, padding: '10px' }}>
-        {currentView === 'home' && <HomeView />}
+        {currentView === 'home' && <Home />}
         {/* Lógica simples para alternar telas no futuro */}
       </main>
 
