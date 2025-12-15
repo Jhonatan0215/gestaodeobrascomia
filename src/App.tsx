@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
-import { Footer } from './components/Footer';
+import Footer from './Footer';
 import { HomeView } from './components/HomeView';
 import { AssistantsView, ToolsHubView, VideoClassesView, BlogView } from './components/PageViews';
 import { AdminPanel } from './components/Admin';
